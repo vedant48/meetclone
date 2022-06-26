@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Meeting</title>
+  <link rel="stylesheet" href="meeting.css">
+</head>
+<body>
+  <div>
+    <div class="container">
+      <div class="person">
+        <div class="mic"><span class="fas fa-microphone-slash"></span></div>
+        <div class="symbol">N</div>
+        <div class="name">Navneet</div>
+      </div>
+  
+      <div class="person">
+        <div class="mic"><span class="fas fa-microphone-slash"></span></div>
+        <div class="symbol">A</div>
+        <div class="name">Abhay</div>
+      </div>
+  
+      <div class="person">
+        <div class="mic"><span class="fas fa-microphone-slash"></span></div>
+        <div class="symbol">A</div>
+        <div class="name">Aditya Sinha</div>
+      </div>
+  
+      <div class="person">
+        <div class="mic"><span class="fas fa-microphone-slash"></span></div>
+        <div class="symbol">P</div>
+        <div class="name">Priyanshu</div>
+      </div>
+  
+      <div class="person">
+        <div class="mic"><span class="fas fa-microphone-slash"></span></div>
+        <div class="symbol">A</div>
+        <div class="name">Alok Kumar</div>
+      </div>
+  
+      <div class="person">
+        <div class="mic"><span class="fas fa-microphone-slash"></span></div>
+        <div class="symbol">S</div>
+        <div class="name">Siddhart Yadav</div>
+      </div>
+  
+      <div class="person">
+        <div class="mic"><span class="fas fa-microphone-slash"></span></div>
+        <div class="symbol">R</div>
+        <div class="name">Ritu Raj</div>
+      </div>
+  
+      <div class="person">
+        <div class="mic"><span class="fas fa-microphone-slash"></span></div>
+        <div id="container">
+          <video autoplay="true" id="videoElement">
+          </video>
+        </div>
+        <div class="nameyou">You</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-dark-gray footer">
+
+    <div class="meeting-name" style="color:#E7E7F5;">fnw-uvba-qau | 16:59 PM</div>
+
+    <div class="controls meeting-controls">
+      <div class="bg-gray icon"><i class="fas fa-microphone"></i></div>
+      <div class="bg-gray icon"><i class="fas fa-video"></i></div>
+      <div class="bg-gray icon"><i class="fas fa-closed-captioning"></i></div>
+      <div class="bg-gray icon"><i class="fa fa-share-square"></i></div>
+      <div class="bg-gray icon"><i class="fas fa-ellipsis-v"></i></div>
+      <div class="bg-red icon">
+        <a href="rejoin.html">
+          <i style="color: white;" class="fa-solid fa-phone"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="controls meeting-chat">
+      <div class="icon"><i class="fas fa-info"></i></div>
+      <div class="icon"><i class="fa-solid fa-user-group"></i></div>
+      <div class="icon"><i id="myBtn" class="fas fa-message"></i></div>
+      <div class="icon"><i class="fa-solid fa-shapes"></i></div>
+    </div>
+
+  </div>
+
+  <div id="ready">
+
+    <div class="meetingstart">
+      <h3>Your meeting's ready</h3>
+      <span onclick="myFunction()" class="close2">&times;</span>
+    </div>
+
+    <div class="sechalf">
+
+      <button class="add">
+        <span class="addicon"><img src="image/addothers.svg" width="30px" height="30px" padding="5px"></span>
+        Add others
+      </button>
+
+      <h4>Or share this meeting link with others you want <br> in the meeting</h4>
+      <div class="copy"><p>meet.google.com/fnw-uvba-qau</p>
+        <span class="material-icons">content_copy</span>
+      </div>
+
+      <div class="permission">
+        <span class="material-icons blue-color">shield</span>
+        <span> who can  use this meeting link must get your permission before they can join.</span>
+      </div>
+
+      <p style="color: hsl(213deg 5% 39%); font-family: 'Segoe UI';">Joined as vedantkumarsharma@gmail.com </p>
+
+    </div>
+
+  </div>
+
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>In-call Messages</h2>
+    </div>
+    <div class="modal-body">
+      <div class="msgbody">Messages can be seen only by people in the call and are deleted when the     call ends
+      </div>
+        <p><b>Ritu Raj</b> &nbsp 17:26 <br>Hi Vedant</p>
+        <p><b>You</b> &nbsp 17:26 <br><p id="demo"></p></p>
+    </div>
+    <div class="modal-footer">
+      <div>
+        <input type="text" id="myText" value="Send a message to Everyone" >
+      </div>
+      <span>
+        <button id="sendbtn" onclick="myFunction()"><i class="fa fa-paper-plane"></i></button>
+      </span>
+    </div>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myText").value;
+      document.getElementById("demo").innerHTML = x;
+    }
+    </script>
+
+</div>
+
+<script>
+  var span = document.getElementsByClassName("close2")[0];
+
+  span.onclick = function() {
+    ready.style.display = "none";
+}
+</script>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+<script>
+  var video = document.querySelector("#videoElement");
+
+if (navigator.mediaDevices.getUserMedia) {
+  navigator.mediaDevices.getUserMedia({ video: true })
+    .then(function (stream) {
+      video.srcObject = stream;
+    })
+    .catch(function (err0r) {
+      console.log("Something went wrong!");
+    });
+}
+</script>
+
+  
+</body>
+</html>

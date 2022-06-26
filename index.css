@@ -1,0 +1,96 @@
+body{
+  width: 1200px;
+  height: 690px;
+  position: relative;
+background: linear-gradient(154.61deg, #E4E9FB 20.04%, rgba(242, 242, 242, 0) 83.91%);
+}
+img {
+  position: absolute;
+  width: center;
+  height: 117px;
+  left: 675px;
+  top: 162px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#mydiv
+{
+    font-size:70px;
+    position: absolute;
+width:center;
+height: 43px;
+left: 550px;
+top: 319px;
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+line-height: 70px;
+
+color: #551BFC;
+}
+#mydiv a
+{
+  position: absolute;
+    font-size:70px;
+    font-weight: 200;
+    color: #000000;
+    font-family: 'Segoe UI';
+font-style: normal;
+line-height: 70px;
+padding-left: 20px;
+    
+}
+
+h2 {
+  position: absolute;
+width: center;
+height: 35px;
+left: 675px;
+top: 402px;
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 350;
+font-size: 25px;
+line-height: 40px;
+
+color: #000000;
+}
+button {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 27px;
+
+color: #FEFEFE;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 200px;
+height: 60px;
+background: linear-gradient(90deg, #121CFC 0%, #121CFC 100%);
+border: 3px solid #FFFFFF;
+box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+margin: 550px 0px 0px 650px;
+
+}
+
+a{
+  color:white;
+  font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 27px;
+text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color:blueviolet;
+}

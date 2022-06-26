@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(154.61deg, #E4E9FB 20.04%, rgba(242, 242, 242, 0) 83.91%);
+  }
+  .logoo{
+    display: flex;
+    position: relative;
+  }
+  .logoo h4{
+    position: absolute;
+    padding-left: 1260px;
+    padding-top: 40px;
+    margin-top: 17px;
+    color: #000000;
+    opacity:0.7;
+    font-weight: 300;
+    cursor: pointer;
+    
+  }
+  .logoo h3{
+    padding-left: 880px;
+    margin-right: 25px;
+    padding-top: 30px;
+    color: #000000;
+    opacity:0.7;
+    font-weight: 300;
+  }
+  .logoo img{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .logoo span{
+    color: #6635fc;
+  }
+  .logoo h2{
+    padding-left: 15px;
+    padding-top: 35px;
+    font-size: 28px;
+  }
+  .infc1{
+    display: flex;
+    position: absolute;
+    padding-left: 1090px;
+    padding-top: 60px;
+  }
+  .infc1 p{
+    letter-spacing: 1px;
+    color: #6635fc;
+    padding-left: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+  .infc2{
+    display: flex;
+    position: absolute;
+    padding-left: 1090px;
+    padding-top: 50px;
+    padding-top: 100px;
+  }
+  .infc2 p{
+    letter-spacing: 1px;
+    color: #6635fc;
+    padding-left: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+  .inf{
+    padding-top: 60px;
+    padding-left: 870px;
+    width: 40%;
+  }
+  .inf button{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 17px;
+    margin-top: 50px;
+    color: #000000;
+  }
+  .inf a{
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .inf h2{
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-left: 200px;
+  }
+  .inf p{
+    padding-left: 235px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+  }
+  .btn1{
+    background-color: #6635fc;
+    border: none;
+    width: 216px;
+    height: 42px;
+    border-radius: 30px;
+    color: #fff;
+  }
+  .btn2{
+    background-color: #E5E9FA;
+    width: 216px;
+    height: 42px;
+    border: none;
+    border-radius: 30px;
+  }
+  .cont{
+    width: 641px;
+    height: 253px;
+    position: absolute;
+    border-radius: 16px;
+    margin-left: 49px;
+    margin-top: 24px;
+    background: #202124;
+    padding-top: 136px;
+    padding-bottom: 113px;
+    padding-left: 20px;
+    padding-right: 134px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cont img{
+    padding-top: 100px;
+    padding-left: 320px;
+    color: red;
+  }
+  .cont p{
+    font-size: 30px;
+    padding-left: 280px;
+    padding-bottom: 30px;
+    color: white;
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 18px;
+    margin-top: 119px;
+    margin-right: 56px;
+    margin-left: 203px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .bg-gray {
+    background: #3b4045;
+    margin-top: 192px;
+    margin-left: 188px;
+  }
+  
