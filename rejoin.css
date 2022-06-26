@@ -1,6 +1,87 @@
-body{
-  width: 1200px;
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: 'Segoe UI';
+  background: linear-gradient(180deg, #E4E9FB 0%, rgba(255, 255, 255, 0) 100%);
+  width: 1500px;
   height: 690px;
   position: relative;
-background: linear-gradient(154.61deg, #E4E9FB 20.04%, rgba(242, 242, 242, 0) 83.91%);
 }
+
+.topnav {
+  overflow: hidden;
+  font-weight: 600;
+  margin-top:10px;
+}
+
+.topnav a {
+  float: left;
+  color: #494d50;
+  font-weight: 100;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.right-end {
+  padding-left: 30px;
+  float: right;
+}
+
+img {
+  position: relative;
+  top: 6px;
+  padding-left: 15px;
+  padding-right: -10px;
+}
+.activeee {
+  position: absolute;
+  margin-left: -10px;
+}
+.material-symbols-outlined {
+  margin-top:12px;
+}
+#rejoin {
+  background-color: #E5E9FA;
+  font-weight: 600;
+  font-size: 20px;
+  width: 171px;
+  height: 52px;
+  margin-top: 100px;
+  margin-left: 417px;
+  text-align: center;
+  padding-top: 25px;
+  border-radius: 20px;
+}
+#return {
+  background-color: #6635FC;
+  font-weight: 600;
+  font-size: 20px;
+  width: 300px;
+  height: 52px;
+  margin-top: 100px;
+  margin-left: 250px;
+  text-align: center;
+  padding-top: 25px;
+  border-radius: 20px;
+}
+.twobtn {
+  display: flex;
+}
+h1 {
+  font-weight: 300;
+font-size: 50px;
+line-height: 67px;
+text-align: center;
+margin-top: 20px;
+}
+
