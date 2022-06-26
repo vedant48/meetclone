@@ -144,7 +144,7 @@ margin-bottom: 5px;
   justify-content: space-between;
   /*   position: sticky; */
   bottom: 0px;
-  margin-top: 210px;
+  margin-top:-15px;
   padding: 10px;
   font-weight: bolder;
   align-items: center;
@@ -181,6 +181,9 @@ margin-bottom: 5px;
 
 .bg-red {
   background: #cc0000;
+}
+.bg-blue {
+  background: blue;
 }
 
 .modal {
